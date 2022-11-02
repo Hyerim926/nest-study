@@ -15,5 +15,7 @@
       "baseUrl": "./src",
       "incremental": true
     },
-    "include": ["src/**/*"]
+    "include": [
+      "../src/**/*"
+    ]
   }

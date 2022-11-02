@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "tsc",
-    "start:dev": "tsc-watch --onSuccess \"node dist/app.js\"",
+    "build": "letsStart/node_modules/.bin/tsc",
+    "start:dev": "letsStart/node_modules/.bin/tsc-watch --onSuccess \\\"node dist/app.js\\\"",
     "prestart": "npm run build",
     "start": "node dist/app.js"
   },
